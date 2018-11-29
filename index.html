@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>elfname</title>
+    <meta charset="UTF-8" />
+    <style>
+      input[type="text"] {
+        width: 25%;
+        padding: 12px 15px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        background-color: #ff0000;
+        color: silver;
+        font-size: 30px;
+      }
+      form {
+        font-size: 30px;
+        color: gold;
+      }
+
+      body {
+        background-color: #008000;
+        color: purple;
+        font-size: 30px;
+      }
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        alignheight: 60%;
+        width: 35%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      My name:
+      <input id="enteredName" type="text" size="100" onkeyup="nameChanged()" />
+    </form>
+    <div id="elfName"></div>
+    <img src="http://pngimg.com/uploads/elf/elf_PNG18.png" />
+    <script src="src/index.js"></script>
+  </body>
+</html>
